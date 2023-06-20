@@ -8,6 +8,7 @@ chmod +x birthday.bash
 Make sure there are no spaces when typing phone number\
 Date format: mm/dd/yyyy \
 Time format: 00:00 (military time) 
+Defualt time is 12pm (12:00)
 ```
 ./birthday.bash "message in quotes" phonenumber/icloud birthdate time(optional)
 ```
