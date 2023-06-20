@@ -12,7 +12,7 @@ fi
 ct=" "
 IFS=":" read -r -a time_num <<< "$time"
 if [ ${#time_num} -lt 1 ]; then
-	hour=0
+	hour=12
 	min=0
 else
 	hour=${time_num[0]}
